@@ -1,0 +1,22 @@
+{
+  "name": "meme-coin-bot",
+  "version": "1.0.0",
+  "description": "A bot to analyze meme coins on Solana, buy low, and sell high",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@raydium-io/raydium-sdk-v2": "^0.1.0",
+    "@solana/web3.js": "^1.95.3",
+    "twitter-api-v2": "^1.16.3",
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7",
+    "natural": "^6.12.0",
+    "winston": "^3.14.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
